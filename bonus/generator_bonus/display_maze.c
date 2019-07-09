@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** date's generator
+** dante's generator
 ** File description:
 ** main
 */
@@ -24,7 +24,7 @@ void disp_maze(char **map)
                 printf("|\n");
         }
         if (map[y] != NULL && map[y][index] == '*')
-            printf("\033[41;34m \033[0;0m");
+            printf("\033[30;34m \033[0;0m");
         else if (map[y] != NULL)
             printf("\033[47;34m \033[0;0m");
         index++;
